@@ -42,7 +42,6 @@ header{
     background-position: left -250px bottom 80% ;
     background-size: 2500px;
     border-bottom: solid 5px #000;
-
 }
 
 
@@ -50,15 +49,28 @@ header{
     padding-top:50px;
     display:flex;
     background-image:url('Img/fondbody.jpg');
+    background-size: cover;
     border-bottom: solid 5px #000;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .main .gauche{
+    width: 50%;
     padding-left: 50px;
     display: flex;
     flex-direction: column;
     color: #fff;
     font-size: 25px;
+}
+
+.main .gauche .texte{
+    display:flex;
+    align-items: center;
+}
+
+.main .gauche .texte Img{
+    margin-left: 50px;
 }
 
 
